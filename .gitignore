@@ -1,0 +1,20 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environments
+venv/
+env/
+
+# Data files (do not push)
+# data/raw_images/*
+data/processed_images/*
+data/extracted_text/*
+
+# Keep folder structure
+!data/raw_images/.gitkeep
+!data/processed_images/.gitkeep
+!data/extracted_text/.gitkeep
+
+# OS files
+.DS_Store
